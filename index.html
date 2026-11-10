@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+ <!-- change image html -->
+
+<img  id=myimg src="img1.jpg">
+        <div id="buttons">
+ <button class="btn" onclick="changeimage()">change</button>
+        </div>
+
+        <br>
+        <hr>
+
+<!-- counter html -->
+
+          <div class="box">
+            <div id="counter">0</div>
+            <button class="decrease" onclick="decrease()">-</button>
+            <button class="increase" onclick="increase()">+</button>
+            <button class="reset" onclick="reset()">Reset</button>
+          </div>
+
+<br>
+<hr>
+
+<!-- add and remove html -->
+
+<div id="container">
+<input type="text" id="opinionInput" placeholder="enter your opinion">
+<button class="enter" onclick="addOpinion()">Add</button>
+<button class="enter" onclick="removeOpinion()">Remove</button>
+</div>
+
+        <script src="script.js"></script>
+</body>
+</html>
